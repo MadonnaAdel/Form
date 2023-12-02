@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    }
+form {
+    width: 400px;
+    margin: 20px auto;
+    }
+label {
+    display: block;
+    margin-bottom: 8px;
+    }
+.inline {
+    display: inline;
+    width: fit-content;
+}
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    }
+.invalid-msg {
+    color: red;
+    font-size: 14px;
+    margin-top: -8px;
+    margin-bottom: 10px;
+    }
